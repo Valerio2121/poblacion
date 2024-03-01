@@ -71,7 +71,7 @@ df2 = df2.sort_values(by=['возраст'])
 
 # aplicacion
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
-
+server = app.server
 
 # maquetas
 maqueta0 = html.Div([
